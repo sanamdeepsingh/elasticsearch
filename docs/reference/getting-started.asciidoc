@@ -1012,7 +1012,7 @@ GET /bank/_search
   "aggs": {
     "group_by_state": {
       "terms": {
-        "field": "state.keyword"
+        "field": "state"
       }
     }
   }
